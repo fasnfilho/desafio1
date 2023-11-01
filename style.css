@@ -1,0 +1,29 @@
+nav{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#nomecurso{
+    color: white;
+    font-size: small;
+    border: solid 5px lawngreen;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#meiodotopo a{
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+#fimdotopo button{
+    color: white;
+    background-color: lawngreen;
+    justify-content: left;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}

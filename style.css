@@ -129,21 +129,26 @@ nav{
 #terceira p{
     font-size: 15px;
 }
+#textpromise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #textpromise h1{
     color: lawngreen;
-    margin-left: 500px;
     font-size: 30px;
 }
 #textpromise h3{
-    margin-left: 430px;
     font-size: 20px;
 }
 #grid1{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
     font-size:15px;
-    margin-left: 15px;
-    justify-content: space-around;
+    margin-left: 250px;
+    margin-top: 20px;
+    justify-content: space-evenly;
 }
 .vants{
     width: 350px;
@@ -170,4 +175,111 @@ nav{
 #vant3 img{
     height: 100px;
     margin-left: 120px;
+}
+#vant4 img{
+    height: 100px;
+    margin-left: 90px;
+}
+#vant4 h2{
+    margin-left: 20px;
+}
+#review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkblue;
+    height: 600px;
+}
+#review h1{
+    color: white;
+}
+#review p{
+    color: white;
+}
+#reviewtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#reviewtext h1{
+    font-size: 35px;
+}
+#review p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+#pic1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pic1 img{
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+}
+#review1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#txtreview1{
+    width: 500px;
+    margin-left: 20px;
+}
+#txtreview1 img{
+    height: 20px;
+}
+#pic2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pic2 img{
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+}
+#review2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#txtreview2{
+    width: 500px;
+    margin-left: 20px;
+}
+#txtreview2 img{
+    height: 20px;
+}
+#pic3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pic3 img{
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+}
+#review3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#txtreview3{
+    width: 500px;
+    margin-left: 20px;
+}
+#txtreview3 img{
+    height: 20px;
 }

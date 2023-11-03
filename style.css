@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 nav{
     background-color: black;
     height: 100px;
@@ -5,25 +10,164 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+}    
 #nomecurso{
+    margin: 20px;
     color: white;
-    font-size: small;
+    font-size: 30px;
     border: solid 5px lawngreen;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #meiodotopo a{
+    margin-right: 20px;
     justify-content: space-around;
     padding: 20px;
     text-decoration: none;
     color: white;
 }
 #fimdotopo button{
+    margin: 10px;
     color: white;
     background-color: lawngreen;
     justify-content: left;
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+.banner img{
+    width: 1519px;
+    height: 500px;
+}
+.banner{
+    display: inline-block;
+    position: relative;
+}
+.banner h1{
+    position: absolute;
+    top: 145px;
+    left: 220px;
+    font-size: 40px;
+    color: white;
+}
+.banner h3{
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    font-size: 30px;
+    color: white;
+}
+.banner button{
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    font-size: 40px;
+    color: white;
+    background-color: lawngreen;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.vantagens{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.textvantagens{
+    width: 500px;
+    padding: 20px;
+}
+#primeira{
+    justify-content: center
+}
+#primeira img{
+    padding: 30px;
+    border-radius: 450px;
+    height: 100px;
+}
+#primeira h1{
+    color: lawngreen;
+    font-size: 30px;
+}
+#primeira p{
+    font-size: 15px;
+}
+.altvantagens{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#segunda{
+    justify-content: center;
+}
+#segunda img{
+    padding: 20px;
+    border-radius: 2500px;
+    height: 90px;
+    width: 150px;
+}
+#segunda h1{
+    color: lawngreen;
+    font-size: 30px;
+}
+#segunda p{
+    font-size: 15px;
+}
+#terceira{
+    justify-content: center;
+}
+#terceira img{
+    padding: 30px;
+    border-radius: 500px;
+    height: 100px;
+    width: 180px;
+}
+#terceira h1{
+    color: lawngreen;
+    font-size: 30px;
+}
+#terceira p{
+    font-size: 15px;
+}
+#textpromise h1{
+    color: lawngreen;
+    margin-left: 500px;
+    font-size: 30px;
+}
+#textpromise h3{
+    margin-left: 430px;
+    font-size: 20px;
+}
+#grid1{
+    display: flex;
+    flex-direction: row;
+    font-size:15px;
+    margin-left: 15px;
+    justify-content: space-around;
+}
+.vants{
+    width: 350px;
+}
+.vants h2{
+    color: lawngreen;
+    margin-left: 90px;
+}
+#vant1 h2{
+    margin-left: 10px;
+}
+#vant2 h2{
+    margin-left: 80px;
+}
+#vant1 img{
+    height: 100px;
+    border-radius: 600px;
+    margin-left: 60px;
+}
+#vant2 img{
+    height: 100px;
+    margin-left: 90px;
+}
+#vant3 img{
+    height: 100px;
+    margin-left: 120px;
 }

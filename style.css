@@ -11,12 +11,32 @@ nav{
     justify-content: space-around;
     align-items: center;
 }    
-#nomecurso{
-    color: white;
-    font-size: 25px;
-    border: solid 5px lawngreen;
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media screen and (min-width: 1024px){
+    #nomecurso{
+        color: white;
+        font-size: 25px;
+        border: solid 5px lawngreen;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1023px){
+    #nomecurso{
+        color: white;
+        font-size: 15px;
+        border: solid 5px lawngreen;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+@media screen and (max-width: 699px){
+    #nomecurso{
+        color: white;
+        font-size: 10px;
+        border: solid 5px lawngreen;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
 #meiodotopo a{
     justify-content: space-around;

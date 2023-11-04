@@ -13,7 +13,7 @@ nav{
 }    
 #nomecurso{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     border: solid 5px lawngreen;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,13 +69,16 @@ nav{
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .textvantagens{
     width: 500px;
     padding: 20px;
 }
 #primeira{
-    justify-content: center
+    justify-content: center;
+    padding: 15px;
 }
 #primeira img{
     padding: 30px;
@@ -112,12 +115,13 @@ nav{
 }
 #terceira{
     justify-content: center;
+    padding-bottom: 20px;
 }
 #terceira img{
     padding: 30px;
     border-radius: 500px;
     height: 100px;
-    width: 180px;
+    width: 155px;
 }
 #terceira h1{
     color: lawngreen;
@@ -131,10 +135,11 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 #textpromise h1{
     color: lawngreen;
-    font-size: 30px;
+    font-size: 35px;
 }
 #textpromise h3{
     font-size: 20px;
@@ -144,9 +149,9 @@ nav{
     grid-template-columns: 50% 50%;
     font-size:15px;
     margin-left: 250px;
-    margin-top: 20px;
     justify-content: space-evenly;
     height: 600px;
+    margin-bottom: 30px;
 }
 .vants{
     width: 350px;
@@ -186,7 +191,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     background-color: dodgerblue;
-    height: 600px;
+    height: 700px;
 }
 #review h1{
     color: white;
@@ -283,7 +288,7 @@ nav{
 }
 #checklist{
     background-color: #007fff;
-    height: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,7 +302,7 @@ nav{
 }
 #cat{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
 }
@@ -309,6 +314,10 @@ nav{
     background-color: white;
     height: 80px;
     border: solid 1px black;
+}
+#cat5 p{
+    display: flex;
+    align-self: center;
 }
 .categoria p{
     font-size: 15px;
@@ -322,10 +331,10 @@ nav{
 #forms{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    padding: 50px;
     align-items: center;
     background-color: whitesmoke;
-    height: 500px;
+    height: 700px;
 }
 #txtforms{
     display: flex;
@@ -334,6 +343,10 @@ nav{
 }
 #txtforms h1{
     color: lawngreen;
+    font-size: 35px;
+}
+#txtforms p{
+    font-size: 20px;
 }
 #oforms{
     display: flex;
@@ -349,7 +362,7 @@ nav{
     background-color: antiquewhite;
 }
 #botao button{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     background-color: lawngreen;
     padding: 10px;
@@ -358,7 +371,48 @@ nav{
 }
 footer{
     background-color: #007fff;
+    color: white;
+    height: 300px;
+    padding: 25px;
 }
-footer img{
-    height: 100px;
+footer button{
+    font-size: 15px;
+    color: white;
+    background-color: lawngreen;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+#cima h1{
+    font-size: 20px;
+}
+#baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#start h1{
+    font-size: 15px;
+    padding: 10px;
+}
+#mid h1{
+    font-size: 15px;
+}
+#end{
+    display: flex;
+    justify-content: flex-end;
 }

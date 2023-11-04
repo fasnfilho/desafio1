@@ -8,11 +8,10 @@ nav{
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }    
 #nomecurso{
-    margin: 20px;
     color: white;
     font-size: 30px;
     border: solid 5px lawngreen;
@@ -20,14 +19,12 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #meiodotopo a{
-    margin-right: 20px;
     justify-content: space-around;
     padding: 20px;
     text-decoration: none;
     color: white;
 }
 #fimdotopo button{
-    margin: 10px;
     color: white;
     background-color: lawngreen;
     justify-content: left;
@@ -149,6 +146,7 @@ nav{
     margin-left: 250px;
     margin-top: 20px;
     justify-content: space-evenly;
+    height: 600px;
 }
 .vants{
     width: 350px;
@@ -187,7 +185,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: darkblue;
+    background-color: dodgerblue;
     height: 600px;
 }
 #review h1{
@@ -282,4 +280,85 @@ nav{
 }
 #txtreview3 img{
     height: 20px;
+}
+#checklist{
+    background-color: #007fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#txtcheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cat{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+}
+.categoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    border: solid 1px black;
+}
+.categoria p{
+    font-size: 15px;
+}
+#txtcheck h1{
+    font-size: 35px;
+}
+#txtcheck p{
+    font-size: 20px;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 500px;
+}
+#txtforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#txtforms h1{
+    color: lawngreen;
+}
+#oforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+}
+#oforms input{
+    background-color: antiquewhite;
+}
+#botao button{
+    font-size: 40px;
+    color: white;
+    background-color: lawngreen;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+footer{
+    background-color: #007fff;
+}
+footer img{
+    height: 100px;
 }

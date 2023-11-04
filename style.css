@@ -32,9 +32,23 @@ nav{
     border-radius: 10px;
     border: none;
 }
-.banner img{
-    width: 1519px;
-    height: 500px;
+@media screen and (min-width: 1024px){
+    .banner img{
+        width: 1519px;
+        height: 500px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1023px){
+    .banner img{
+        width: 900px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 699px){
+    .banner img{
+        width: 300px;
+        height: 100px;
+    }
 }
 .banner{
     display: inline-block;
